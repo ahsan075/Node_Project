@@ -1,0 +1,19 @@
+{
+    "name": "project_1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index",
+        "production": "NODE_ENV=production nodemon index"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "env": "0.0.2",
+        "path": "^0.12.7"
+    }
+}
